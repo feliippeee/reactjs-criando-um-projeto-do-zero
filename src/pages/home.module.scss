@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // TODO
 .posts {
     margin-top: 2rem;
@@ -41,4 +42,50 @@
             }
         }
     }
+=======
+// TODO
+.posts {
+    margin-top: 2rem;
+    >a {
+        display: block;
+    }
+    a + a {
+        margin-top:  3rem;
+    }
+    button {
+        position: absolute;
+        border: none;
+        background: transparent;
+        font-weight: 600;
+        font-size: 1.125rem;
+        color: var(--Highlight);
+        margin-top: 4rem;
+    }
+}
+.post {
+    strong {
+        font-size: 1.75rem;
+        font-weight: bold;
+        color: var(--Heading);
+    }
+    p {
+        margin-top: 0.5rem;
+        font-size: 1.125rem;
+    }
+    ul {
+        list-style: none;
+        margin-top: 1.5rem;
+        display: flex;
+
+        & li {
+            font-size: 0.875rem;
+            & svg {
+                margin-right: 0.5rem;
+            }
+            & + li {
+                margin-left: 1.625rem;
+            }
+        }
+    }
+>>>>>>> 9c4642fca31e5e4128381507bc4b9030431974f9
 }
